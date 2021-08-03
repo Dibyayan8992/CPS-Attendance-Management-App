@@ -1,0 +1,247 @@
+<!DOCTYPE HTML>
+<html class="no-js">
+
+<head>
+<!-- Basic Page Needs
+  ================================================== -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>CPS Attendance Management - Build by KAR LLC Apps</title>
+<meta name="description" content="Manage your student's or group's attendance easily! Quickly track the attendance of your class, group or any gathering of people!">
+<meta name="keywords" content="Free Attendance Tracking Software, Attendance taking App, Student Attendance Tracker">
+<meta name="author" content="">
+<!-- Mobile Specific Metas
+  ================================================== -->
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<!-- CSS
+  ================================================== -->
+<link href="css/proui-2.0/frontend/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/proui-2.0/frontend/font-awesome.css" rel="stylesheet" type="text/css"> 
+<link href="css/proui-2.0/frontend/style.css" rel="stylesheet" type="text/css"> 
+<link href="css/proui-2.0/frontend/animations.css" rel="stylesheet" type="text/css"> 
+<link href="assets/proui-2.0/frontend/plugins/prettyphoto/css/prettyPhoto.css" rel="stylesheet" type="text/css">
+<link href="assets/proui-2.0/frontend/plugins/owl-carousel/css/owl.carousel.css" rel="stylesheet" type="text/css">
+<link href="assets/proui-2.0/frontend/plugins/owl-carousel/css/owl.theme.css" rel="stylesheet" type="text/css">
+<link href="assets/proui-2.0/frontend/plugins/rs-plugin/css/settings.css" rel="stylesheet" type="text/css" media="screen" /> 
+<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/css/proui-2.0/frontend/ie8.css" media="screen" /><![endif]-->
+<!-- Color Style -->
+<link href="assets/proui-2.0/frontend/colors/blue.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/proui-2.0/myat-common.css">
+<!-- SCRIPTS
+  ================================================== -->
+<script type="text/javascript" src="js/proui-2.0/myat-common.js"></script>
+<script>
+  /*
+     var _gaq = _gaq || [];
+     _gaq.push(['_setAccount', 'UA-169856-12']);
+     _gaq.push(['_trackPageview']);
+
+     (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+     })();
+  */
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','../www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-169856-12', 'auto');
+  ga('send', 'pageview');
+  /*ga(function(tracker) {
+    $("#ga_client_id").val(tracker.get('clientId'));
+  });*/
+</script>   <!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==
+   typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);
+   b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
+   mixpanel.init("d6f8e66787ae9247e664119825888981");
+   </script><!-- end Mixpanel -->
+</head>
+<body>
+<!--[if lt IE 7]>
+	<p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this app.</p>
+<![endif]--> 
+<!-- Preloader -->
+<div id="preloader">
+  <div id="status"></div>
+</div>
+<!-- Start Body Container -->
+<div class="body footer-style2">
+    <!-- Start Search Box -->
+    <!-- <div id="search-outer">
+      <div id="search">
+        <div class="container">
+          <div class="row">
+            <div id="search-box">
+              <div class="col-md-10 col-md-offset-3">
+                <form>
+                  <input type="text" name="s" id="s" placeholder="Start Typing..." />
+                </form>
+              </div>
+            </div>
+            <div class="search-icon"> <a href="#" id="open"><i class="fa fa-search"></i></a> <a href="#" id="close"><i class="fa fa-times"></i></a> </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <nav class="mobile-menu">
+      <div class="container">
+        <div class="row"></div>
+      </div>
+    </nav>
+  </header>
+  <!-- End Header --> 
+  <!-- Start Content -->
+  <div class="main" role="main">
+    <div id="content" class="content full">
+        <header class="page-header flexible parallax text-align-center parallax-overlay">
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>CPS Attendance Management Terms &amp; Conditions</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+</header>
+<div class="container">
+    <div class="row">
+        <!-- Start Sidebar -->
+                <div class="col-md-12">
+            <p>The use of this app and services on this app provided by MyAttendanceTracker (hereinafter referred to as "Company") are subject to the following Terms &amp; Conditions (hereinafter the "Agreement"), all parts and sub-parts of which are specifically incorporated by reference here. This Agreement shall govern the use of all pages on this app (hereinafter collectively referred to as "app") and any services provided by or on this app ("Services").</p>
+
+            <h3>Definitions</h3>
+            <p>The parties referred to in this Agreement shall be defined as follows:</p>
+            <ul class="chevrons">
+                <li>Company, Us, We: The Company, as the creator, operator, and publisher of the app, makes the app, and certain Services on it, available to users. CPS Attendance Management, Company, Us, We, Our, Ours and other first-person pronouns will refer to the Company, as well as all employees and affiliates of the Company.</li>
+                <li>You, the User, the Client: You, as the user of the app, will be referred to throughout this Agreement with second-person pronouns such as You, Your, Yours, or as User or Client.</li>
+                <li>Parties: Collectively, the parties to this Agreement (the Company and You) will be referred to as Parties.</li>
+            </ul>
+
+            <h3>Assent &amp; Acceptance</h3>
+            <p>By using the app, You warrant that You have read and reviewed this Agreement and that You agree to be bound by it. If You do not agree to be bound by this Agreement, please leave the app immediately. The Company only agrees to provide use of this app and Services to You if You assent to this Agreement.</p>
+
+            <h3>License To Use app</h3>
+            <p>The Company may provide You with certain information as a result of Your use of the app or Services. Such information may include, but is not limited to, documentation, data, or information developed by the Company, and other materials which may assist in Your use of the app or Services ("Company Materials"). Subject to this Agreement, the Company grants You a non-exclusive, limited, non-transferable and revocable license to use the Company Materials solely in connection with Your use of the app and Services. The Company Materials may not be used for any other purpose and this license terminates upon Your cessation of use of the app or Services or at the termination of this Agreement.</p>
+
+            <h3>Intellectual Property</h3>
+            <p>You agree that the app and all Services provided by the Company are the property of the Company, including all copyrights, trademarks, trade secrets, patents and other intellectual property ("Company IP"). You agree that the Company owns all right, title and interest in and to the Company IP and that You will not use the Company IP for any unlawful or infringing purpose. You agree not to reproduce or distribute the Company IP in any way, including electronically or via registration of any new trademarks, trade names, service marks or Uniform Resource Locators (URLs), without express written permission from the Company.</p>
+            <ul class="chevrons">
+                <li>In order to make the app and Services available to You, You hereby grant the Company a royalty-free, non-exclusive, worldwide license to copy, display, use, broadcast, transmit and make derivative works of any content You publish, upload or otherwise make available to the app ("Your Content"). The Company claims no further proprietary rights in Your Content.</li>
+                <li>If You feel that any of Your intellectual property rights have been infringed or otherwise violated by the posting of information or media by another of Our users, please contact Us and let Us know.</li>
+            </ul>
+
+            <h3>User Obligations</h3>
+            <p>As a user of the app or Services, You may be asked to register with Us. When You do so, You will choose a user identifier, which may be Your email address or another term, as well as a password. You may also provide personal information, including, but not limited to, Your name. You are responsible for ensuring the accuracy of this information. This identifying information will enable You to use the app and Services. You must not share such identifying information with any third party and if You discover that Your identifying information has been compromised, You agree to notify Us immediately in writing. Email notification will suffice. You are responsible for maintaining the safety and security of Your identifying information as well as keeping Us apprised of any changes to Your identifying information. Providing false or inaccurate information, or using the app or Services to further fraud or unlawful activity is grounds for immediate termination of this Agreement.</p>
+
+            <h3>Acceptable Use</h3>
+            <p>You agree not to use the app or Services for any unlawful purpose or any purpose prohibited under this clause. You agree not to use the app or Services in any way that could damage the app, Services or general business of the Company.</p>
+            <p>You further agree not to use the app or Services:</p>
+            <ul class="chevrons">
+                <li>To harass, abuse, or threaten others or otherwise violate any person's legal rights;</li>
+                <li>To violate any intellectual property rights of the Company or any third party;</li>
+                <li>To upload or otherwise disseminate any computer viruses or other software that may damage the property of another;</li>
+                <li>To perpetrate any fraud;</li>
+                <li>To engage in or create any unlawful gambling, sweepstakes, or pyramid scheme;</li>
+                <li>To publish or distribute any obscene or defamatory material;</li>
+                <li>To publish or distribute any material that incites violence, hate or discrimination towards any group;</li>
+                <li>To unlawfully gather information about others.</li>
+            </ul>
+
+            <h3>Privacy Information</h3>
+            <p>Through Your Use of the app and Services, You may provide Us with certain information. By using the app or the Services, You authorize the Company to use Your information in the United States and any other country where We may operate.</p>
+            <ul class="chevrons">
+                <li>Information We May Collect or Receive: When You register for an account, You provide Us with a valid email address and may provide Us with additional information, such as Your name or billing information. Depending on how You use Our app or Services, We may also receive information from external applications You use to access Our app, or We may receive information through various web technologies, such as cookies, log files, clear gifs, web beacons or others.</li>
+                <li>How We Use Information: We use the information gathered from You to ensure Your continued good experience on Our app, including through email communication. We may also track certain of the passive information received to improve Our marketing and analytics, and for this, We may work with third-party providers.</li>
+                <li>How You Can Protect Your Information: If You would like to disable Our access to any passive information We receive from the use of various technologies, You may choose to disable cookies in Your web browser. Please be aware that the Company will still receive information about You that You have provided, such as Your email address. If You choose to terminate Your account, the Company will store information about You for the following number of days: 90. After that time, it will be deleted.</li>
+            </ul>
+
+            <h3>Sale Of Goods/Services</h3>
+            <p>The Company may sell goods or services or allow third parties to sell goods or services on the app. The Company undertakes to be as accurate as possible with all information regarding the goods and services, including product descriptions and images. However, the Company does not guarantee the accuracy or reliability of any product information and You acknowledge and agree that You purchase such products at Your own risk.</p>
+            <p>If You are unhappy with a service being sold on Our app, You may request a refund.</p>
+
+            <h3>Reverse Engineering &amp; Security</h3>
+            <p>You agree not to undertake any of the following actions:</p>
+            <ul class="chevrons">
+                <li>Reverse engineer, or attempt to reverse engineer or disassemble any code or software from or on the app or Services;</li>
+                <li>Violate the security of the app or Services through any unauthorized access, circumvention of encryption or other security tools, data mining or interference to any host, user or network.</li>
+            </ul>
+
+            <h3>Data Loss</h3>
+            <p>The Company does not accept responsibility for the security of Your account or content. You agree that Your use of the app or Services is at Your own risk.</p>
+
+            <h3>Indemnification</h3>
+            <p>You agree to defend and indemnify the Company and any of its affiliates (if applicable) and hold Us harmless against any and all legal claims and demands, including reasonable attorney's fees, which may arise from or relate to Your use or misuse of the app or Services, Your breach of this Agreement, or Your conduct or actions. You agree that the Company shall be able to select its own legal counsel and may participate in its own defense, if the Company wishes.</p>
+
+            <h3>Spam Policy</h3>
+            <p>You are strictly prohibited from using the app or any of the Company's Services for illegal spam activities, including gathering email addresses and personal information from others or sending any mass commercial emails.</p>
+
+            <h3>Third-Party Links &amp; Content</h3>
+            <p>The Company may occasionally post links to third party apps or other services. You agree that the Company is not responsible or liable for any loss or damage caused as a result of Your use of any third party services linked to from Our app.</p>
+
+            <h3>Modification &amp; Variation</h3>
+            <p>The Company may, from time to time and at any time without notice to You, modify this Agreement. You agree that the Company has the right to modify this Agreement or revise anything contained herein. You further agree that all modifications to this Agreement are in full force and effect immediately upon posting on the app and that modifications or variations will replace any prior version of this Agreement, unless prior versions are specifically referred to or incorporated into the latest modification or variation of this Agreement.</p>
+            <ul class="chevrons">
+                <li>To the extent any part or sub-part of this Agreement is held ineffective or invalid by any court of law, You agree that the prior, effective version of this Agreement shall be considered enforceable and valid to the fullest extent.</li>
+                <li>You agree to routinely monitor this Agreement and refer to the Effective Date posted at the top of this Agreement to note modifications or variations. You further agree to clear Your cache when doing so to avoid accessing a prior version of this Agreement. You agree that Your continued use of the app after any modifications to this Agreement is a manifestation of Your continued assent to this Agreement.</li>
+                <li>In the event that You fail to monitor any modifications to or variations of this Agreement, You agree that such failure shall be considered an affirmative waiver of Your right to review the modified Agreement.</li>
+            </ul>
+
+            <h3>Entire Agreement</h3>
+            <p>This Agreement constitutes the entire understanding between the Parties with respect to any and all use of this app. This Agreement supersedes and replaces all prior or contemporaneous agreements or understandings, written or oral, regarding the use of this app.</p>
+
+            <h3>Service Interruptions</h3>
+            <p>The Company may need to interrupt Your access to the app to perform maintenance or emergency services on a scheduled or unscheduled basis. You agree that Your access to the app may be affected by unanticipated or unscheduled downtime, for any reason, but that the Company shall have no liability for any damage or loss caused as a result of such downtime.</p>
+
+            <h3>Term, Termination &amp; Suspension</h3>
+            <p>The Company may terminate this Agreement with You at any time for any reason, with or without cause. The Company specifically reserves the right to terminate this Agreement if You violate any of the terms outlined herein, including, but not limited to, violating the intellectual property rights of the Company or a third party, failing to comply with applicable laws or other legal obligations, and/or publishing or distributing illegal material. If You have registered for an account with Us, You may also terminate this Agreement at any time by contacting Us and requesting termination. At the termination of this Agreement, any provisions that would be expected to survive termination by their nature shall remain in full force and effect.</p>
+
+            <h3>No Warranties</h3>
+            <p>You agree that Your use of the app and Services is at Your sole and exclusive risk and that any Services provided by Us are on an "As Is" basis. The Company hereby expressly disclaims any and all express or implied warranties of any kind, including, but not limited to the implied warranty of fitness for a particular purpose and the implied warranty of merchantability. The Company makes no warranties that the app or Services will meet Your needs or that the app or Services will be uninterrupted, error-free, or secure. The Company also makes no warranties as to the reliability or accuracy of any information on the app or obtained through the Services. You agree that any damage that may occur to You, through Your computer system, or as a result of loss of Your data from Your use of the app or Services is Your sole responsibility and that the Company is not liable for any such damage or loss.</p>
+
+            <h3>Limitation On Liability</h3>
+            <p>The Company is not liable for any damages that may occur to You as a result of Your use of the app or Services, to the fullest extent permitted by law. The maximum liability of the Company arising from or relating to this Agreement is limited to the greater of one hundred ($100) US Dollars or the amount You paid to the Company in the last six (6) months. This section applies to any and all claims by You, including, but not limited to, lost profits or revenues, consequential or punitive damages, negligence, strict liability, fraud, or torts of any kind.</p>
+
+            <h3>General Provisions</h3>
+            <ul class="chevrons">
+                <li><strong>LANGUAGE:</strong> All communications made or notices given pursuant to this Agreement shall be in the English language.</li>
+                <li><strong>JURISDICTION, VENUE &amp; CHOICE OF LAW:</strong> Through Your use of the app or Services, You agree that the laws of the State of Iowa shall govern any matter or dispute relating to or arising out of this Agreement, as well as any dispute of any kind that may arise between You and the Company, with the exception of its conflict of law provisions. In case any litigation specifically permitted under this Agreement is initiated, the Parties agree to submit to the personal jurisdiction of the state and federal courts of the following county: Polk, Iowa. The Parties agree that this choice of law, venue, and jurisdiction provision is not permissive, but rather mandatory in nature. You hereby waive the right to any objection of venue, including assertion of the doctrine of forum non conveniens or similar doctrine.</li>
+                <li><strong>ARBITRATION:</strong> In case of a dispute between the Parties relating to or arising out of this Agreement, the Parties shall first attempt to resolve the dispute personally and in good faith. If these personal resolution attempts fail, the Parties shall then submit the dispute to binding arbitration. The arbitration shall be conducted in the following county: Polk. The arbitration shall be conducted by a single arbitrator and such arbitrator shall have no authority to add Parties, vary the provisions of this Agreement, award punitive damages, or certify a class. The arbitrator shall be bound by applicable and governing Federal law as well as the law of the following state: Iowa. Each Party shall pay their own costs and fees. Claims necessitating arbitration under this section include, but are not limited to: contract claims, tort claims, claims based on Federal and state law, and claims based on local laws, ordinances, statutes or regulations. Intellectual property claims by the Company will not be subject to arbitration and may, as an exception to this sub-part, be litigated. The Parties, in agreement with this sub-part of this Agreement, waive any rights they may have to a jury trial in regard to arbitral claims.</li>
+                <li><strong>ASSIGNMENT:</strong> This Agreement, or the rights granted hereunder, may not be assigned, sold, leased or otherwise transferred in whole or part by You. Should this Agreement, or the rights granted hereunder, by assigned, sold, leased or otherwise transferred by the Company, the rights and liabilities of the Company will bind and inure to any assignees, administrators, successors and executors.</li>
+                <li><strong>SEVERABILITY:</strong> If any part or sub-part of this Agreement is held invalid or unenforceable by a court of law or competent arbitrator, the remaining parts and sub-parts will be enforced to the maximum extent possible. In such condition, the remainder of this Agreement shall continue in full force.</li>
+                <li><strong>NO WAIVER:</strong> In the event that We fail to enforce any provision of this Agreement, this shall not constitute a waiver of any future enforcement of that provision or of any other provision. Waiver of any part or sub-part of this Agreement will not constitute a waiver of any other part or sub-part.</li>
+                <li><strong>HEADINGS FOR CONVENIENCE ONLY:</strong> Headings of parts and sub-parts under this Agreement are for convenience and organization, only. Headings shall not affect the meaning of any provisions of this Agreement.</li>
+                <li><strong>NO AGENCY, PARTNERSHIP OR JOINT VENTURE:</strong> No agency, partnership, or joint venture has been created between the Parties as a result of this Agreement. No Party has any authority to bind the other to third parties.</li>
+                <li><strong>FORCE MAJEURE:</strong> The Company is not liable for any failure to perform due to causes beyond its reasonable control including, but not limited to, acts of God, acts of civil authorities, acts of military authorities, riots, embargoes, acts of nature and natural disasters, and other acts which may be due to unforeseen circumstances.</li>
+                <li><strong>ELECTRONIC COMMUNICATIONS PERMITTED:</strong> Electronic communications are permitted to both Parties under this Agreement, including e-mail or fax. For any questions or concerns, please email Us at the following address: support@myattendancetracker.com.</li>
+            </ul>
+
+            <p style="float: right;"><em>Last Updated: August 10, 2021</em></p>
+        </div>
+    </div>
+</div>  
+  <a id="back-to-top"><i class="fa fa-angle-double-up"></i></a>
+    </div>
+<!-- End Body Container --> 
+<!-- SCRIPTS
+  ================================================== -->
+<script src="js/proui-2.0/frontend/modernizr.js"></script><!-- Modernizr -->
+<script src="../code.jquery.com/jquery-latest.min.js"></script> <!-- Jquery Library Call --> 
+<script src="../ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/jquery.validate.js"></script>
+<script>if (typeof jQuery == 'undefined') {document.write(unescape("%3Cscript src='/js/proui-2.0/frontend/jquery-2.0.0.min.js' type='text/javascript'%3E%3C/script%3E"));}</script> 
+<script src="assets/proui-2.0/frontend/plugins/prettyphoto/js/prettyphoto.js"></script>
+<script src="assets/proui-2.0/frontend/plugins/owl-carousel/js/owl.carousel.min.js"></script> 
+<script src="assets/proui-2.0/frontend/plugins/page-scroller/jquery.pagescroller.js"></script> 
+<script src="js/proui-2.0/frontend/helper-plugins.js"></script> <!-- Plugins --> 
+<script src="js/proui-2.0/frontend/bootstrap.js"></script> <!-- UI --> 
+<script src="js/proui-2.0/frontend/init.js"></script> <!-- All Scripts --> 
+<script src="assets/proui-2.0/frontend/plugins/rs-plugin/js/jquery.themepunch.plugins.min.js"></script> 
+<script src="assets/proui-2.0/frontend/plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script> 
+<script src="js/proui-2.0/frontend/revolution-slider-init.js"></script> <!-- Revolutions Slider Intialization -->   
+<script src="js/proui-2.0/frontend/myat-common.js"></script> <!-- Revolutions Slider Intialization -->   
+<!-- End Js -->
+</body>
+
+</html>
